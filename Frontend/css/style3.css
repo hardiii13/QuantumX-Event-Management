@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img/background..jpg");
+}
+.gallery{
+    font-size: 35px;
+    text-align: center;
+    color: burlywood;
+    border-style: double;
+    background-color: whitesmoke;
+}
+.part2{
+    font-size: 20
+    px;
+    text-align: center;
+    color: burlywood;
+}
+.wedding{
+    position: 
+    height 350px;
+    border-radius: 10px;
+    width: 125%;
+    cursor: pointer;
+    border-style: double;
+
+}
+.wedding img{
+    float: left;
+    width: 40%;
+    height: 400px;
+    padding: 1px 8px 10px 1px;
+    
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style1.css">
+    <script src="main1.js"></script>
+    <title>Registration</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title" >Registration</div>
+        <form action="connect.php" method="post" >
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" id="name">Full Name</span>
+                    <input type="text" placeholder="Enter your name" name="fullName">
+                </div>
+                <div class="input-box">
+                    <span class="details" id="phone">Phone Number </span>
+                    <input type="text" placeholder="Enter your phone number" name="phone">
+                </div>
+                <div class="input-box">
+                    <span class="details" id="email">Email Id</span>
+                    <input type="text" placeholder="Enter your email id" name="email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <input type="text" placeholder="Enter location of venue"  name="location">
+                </div>
+                <div class="input-box">
+                    <span class="details">Pin code</span>
+                    <input type="text" placeholder="Enter location of venue"  name="pin">
+                </div>
+                <div class="input-box">
+                    <span class="details">Date of event</span>
+                    
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="input-box">
+                    <span class="details">Time of event</span>
+                    <input type="time" placeholder="Enter time of event"  name="time">
+                </div>
+                <div class="input-box">
+                    <span class="details">Duration of event</span>
+                    <input type="text" placeholder="Enter duration of event"  name="duration">
+                </div>
+                <div class="input-box">
+                    <span class="details">What type of service you want?</span>
+                    <input type="text" placeholder="Enter type of service you want" name="type">
+                </div>
+            </div>
+            <div class="button">
+                <input type="Submit" value="Submit" onclick="message()">
+            </div>
+           
+        </form>
+    </div>
+    <div class="bg"></div>
+    <div class="star-field">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    
+</body>
+</html>

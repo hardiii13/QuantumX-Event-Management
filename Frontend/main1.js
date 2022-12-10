@@ -1,0 +1,3 @@
+function message(){
+   SharedWorker.aler
+}
