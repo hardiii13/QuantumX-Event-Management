@@ -14,12 +14,12 @@
     $dbname="event";
     $username = "root";
     $password ="";
-    $conn =newmysqli('localhost','root','','event');
+    $conn =mysqli('localhost','root','','event');
     if($conn->connect_error){
         die('Connection Failed :'.$conn->connect_error);
     }else{
-        $stmt = $conn->prepare("insert into registration (fullName,phone,email,location,pin,birthday,time,duration,type")
-        values(?,?,?,?,?,?,?,?,?)");
+        $stmt = $conn->prepare("insert into registration (fullName,phone,email,location,pin,birthday,time,duration,type");
+        values('?,?,?,?,?,?,?,?,?');
         $stmt->bind_param(" ssssiiiis",$fullName,$phone,$email,$location,$pin,$birthday,$time,$duration,$type);
         $stmt->execute();
         echo "registration successfully..";
